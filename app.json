@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Despensa de Casa",
+    "slug": "despensa-de-casa",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kito.despensadecasa"
+    },
+    "android": {
+      "package": "com.kito.despensadecasa",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "NOTIFICATIONS",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Permitir que o app use a câmera para ler códigos de barras."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#007bff"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6ff53d2b-c235-4e39-8cac-cc18ff4715d7"
+      }
+    },
+    "owner": "frankito10"
+  }
+}
