@@ -106,7 +106,7 @@ export default function HomeScreen({ navigation, houseId }) {
       </View>
 
       <ImageBackground 
-        source={require('../../assets/cart-watermark.png')} 
+        source={require('../../assets/cartwatermark.png')} 
         style={{flex: 1}}
         imageStyle={{ opacity: 0.04, resizeMode: 'contain', top: 100 }}
       >

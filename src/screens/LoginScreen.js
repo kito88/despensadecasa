@@ -61,7 +61,7 @@ export default function LoginScreen({ navigation }) {
 
   return (
     <ImageBackground 
-      source={require('../../assets/cart-bg.png')} 
+      source={require('../../assets/cartbg.png')} 
       style={styles.backgroundImage}
       resizeMode="cover"
     >

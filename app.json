@@ -17,10 +17,11 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.kito.despensadecasa"
+      "bundleIdentifier": "com.frankito10.despensadecasa"
     },
     "android": {
-      "package": "com.kito.despensadecasa",
+      "package": "com.frankito10.despensadecasa",
+      "googleServicesFile": "./google-services.json", 
       "versionCode": 1,
       "permissions": [
         "CAMERA",

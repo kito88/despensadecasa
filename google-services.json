@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "996014024816",
+    "project_id": "despensacasa-kito",
+    "storage_bucket": "despensacasa-kito.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996014024816:android:7037cb730a80376f31ecb5",
+        "android_client_info": {
+          "package_name": "com.frankito10.despensadecasa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlQP_VDpSfO7LFxwUToI739FM-78dLWqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
